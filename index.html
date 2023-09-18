@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/icons8-salada-100.png" type="image/png">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>GreenBite - Comidas Saúdaveis</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">GreenBite</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Receitas</a></li>
+                        <li class="nav__item"><a href="#colect" class="nav__link">Pontos de Coleta</a></li>
+                        <li class="nav__item"><a href="#restaurant" class="nav__link">Restaurantes</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">GreenBite</h1>
+                        <h2 class="home__subtitle">Refeições Saúdaveis e Sustentaveis, de uma forma jamais vista antes.</h2>
+                        <a href="#menu" class="button">Receitas</a>
+                    </div>
+    
+                    <img src="assets/img/Home.jpg" alt="" class="home__img">
+                </div>
+            </section>
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Serviços</span>
+                <h2 class="section-title">Oferecemos:</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <img src="assets/img/icon1.png" width="64" height="64">
+                        <h3 class="services__title">Receitas</h3>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="assets/img/icon2.png" width="64" height="64">
+                        <h3 class="services__title">Pontos de Coletas:</h3>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="assets/img/icon3.png" width="64" height="64">
+                        <h3 class="services__title">Restaurantes:</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <h2 class="section-title"><img src="assets/img/icon1.png" width="28" height="28"> Receitas</h2>
+                <div class="menu__container container swiper-container">
+                    <div class="menu__content swiper-slide">
+                        <h3 class="menu__name">Bolinho de Arroz</h3>
+                        <span class="menu__detail">
+                            <ol>
+                                <li> 2 xícaras (chá) de arroz cozido</li>
+                                <li> 1 colher (sopa) de cebola picada</li>
+                                <li> 1/2 dente de alho</li>
+                                <li> 2 colheres (sopa) de salsinha</li>
+                                <li> 2 ovos</li>
+                                <li> 1 xícara (chá) de farinha de trigo</li>
+                                <li>sal a gosto</li>
+                            </ol>
+                            <h4>Modo de Preparo</h4>
+                            <p>Misturar todos os ingredientes e formar os bolinhos. Assar
+                            em forno médio por 30 minutos ou fritar em óleo quente</p>
+                        </span>
+                    </div>
+        
+                    <div class="menu__content swiper-slide">
+                        <h3 class="menu__name">Bolo de pão com legumes</h3>
+                        <span class="menu__detail">
+                            <ol>
+                                <li>• 1 kg de pão picado</li>
+                                <li>• 1 litro de leite</li>
+                                <li>• sal a gosto</li>
+                                <li>• pimenta a gosto</li>
+                                <li>• 3 ovos</li>
+                                <li>• 3 colheres (sopa) de maisena</li>
+                                <li>• 1 cebola</li>
+                                <li>• salsa picada</li>
+                                <li>• 3 colheres (sopa) de margarina</li>
+                            </ol>
+                            <h4>Modo de Preparo:</h4>
+                            <p>Amolecer o pão no leite. Temperar com sal e pimenta,
+                                acrescentar salsinha picada, cebola ralada, margarina,
+                                legumes e talos picados, gemas e maisena. Misturar bem.
+                                Por fim, acrescentar claras em neve. Colocar em uma
+                                forma untada e levar para assar em forno pré-aquecido
+                                por cerca de 20 minutos.</p>
+                        </span>
+                    </div>
+        
+                    <div class="menu__content swiper-slide">
+                        <h3 class="menu__name">Arroz Colorido</h3>
+                        <span class="menu__detail">
+                            <ol>
+                                <li>• 6 xícaras de arroz cozido</li>
+                                <li>• 1 beterraba pequena cozida e batida no liquidificador</li>
+                                <li>• 1 cenoura cozida e batida no liquidificador</li>
+                                <li>• 1 xícara de folhas verdes cozidas e batidas no
+                                    liquidificador (almeirão, agrião, espinafre, folhas de
+                                    cenoura, folha de brócolis, folha de couve-flor, mostarda
+                                    etc.)</li>
+                                <li>• Sal a gosto</li>
+                            </ol>
+                            <h4>Modo de Preparo:</h4>
+                            <p>Dividir o arroz em 4 partes. Uma ficará branca. Em outra
+                                parte, colocar a beterraba, na terceira, a cenoura e na
+                                última, o purê de folhas. Colocar em uma forma o arroz
+                                branco e depois fazer camadas de arroz colorido até
+                                terminar. Apertar bem para poder tirar da forma.</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+        
+        
+
+            <!--========== PONTOS DE COLETA ==========-->
+            <section class="coleta section bd-container" id="colect">
+                <h2 class="section-title"><img src="assets/img/icon2.png" width="28" height="28"> Pontos de Coleta</h2>
+                <div class="coleta__container bd-grid">
+                    <div class="coleta__content">
+                        <h3 class="coleta__name">LOCAL...</h3>
+                        <span class="coleta__detail"></span>
+                    </div>
+
+                    <div class="coleta__content">
+                        <h3 class="coleta__name">LOCAL...</h3>
+                        <span class="coleta__detail"></span>
+                        <ul class="menu__list show">
+                        </ul>
+                    </div>
+
+                    <div class="coleta__content">
+                        <h3 class="coleta__name">LOCAL...</h3>
+                        <span class="coleta__detail"></span>
+                        <ul class="menu__list show">
+                        </ul>
+                    </div>
+                   
+                </div>
+
+            </section>
+           
+            <!--========== RESTAURANTES ==========-->
+            <section class="restaurant section bd-container" id="restaurant">
+                <h2 class="section-title"><img src="assets/img/icon3.png" width="28" height="28"> Restaurantes</h2>
+                <div class="restaurant__container bd-grid">
+                    <div class="restaurant__content">
+                        <h3 class="restaurant__name">Nome</h3>
+                        <span class="restaurant__detail">Endereço:</span>
+                    </div>
+
+                    <div class="restaurant__content">
+                        <h3 class="restaurant__name">Nome</h3>
+                        <span class="restaurant__detail">Endereço:</span>
+                    </div>
+
+                    <div class="restaurant__content">
+                        <h3 class="restaurant__name">Nome</h3>
+                        <span class="restaurant__detail">Endereço:</span>
+                    </div>
+                   
+                </div>
+
+            </section>
+
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">GreenBite</a>
+                    <span class="footer__description">Comidas Saudáveis e Sustentáveis</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Serviços</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Receitas</a></li>
+                        <li><a href="#" class="footer__link">Pontos de Coleta</a></li>
+                        <li><a href="#" class="footer__link">Restaurantes</a></li>
+                        <li><a href="#" class="footer__link">Delivery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Informações</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Eventos</a></li>
+                        <li><a href="#" class="footer__link">Contato</a></li>
+                        <li><a href="#" class="footer__link">Suporte </a></li>
+                        <li><a href="#" class="footer__link">Política de Privacidade</a></li>
+                        <li><a href="#" class="footer__link">Termos e Condições </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Endereço:</h3>
+                    <ul>
+                        <li>São Paulo (SP) - Brasil</li>
+                        <li>999 - 888 - 777</li>
+                        <li>GreenBite@email.com</li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== JS ==========-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+    </body>
+</html>
